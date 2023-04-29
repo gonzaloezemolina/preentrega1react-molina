@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family: "Bebas";
+    src: url(../../assets/BebasNeue-Regular.ttf);
+  }
+
+  .greeting{
+    padding: 4rem;
+    text-align: center;
+    font-size: 45px;
+    font-family: "Bebas";
+  }

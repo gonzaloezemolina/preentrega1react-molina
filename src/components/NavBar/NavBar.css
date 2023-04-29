@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url(../../assets/BebasNeue-Regular.ttf);
+  }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem;
+    border-bottom: 2px solid black;
+    font-family: "Bebas";
+}
+
+.navItems{
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.nav-logo{
+    width: 100px;
+    height: 100px;
+}
+
+
+.carritoNav{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+}
