@@ -1,0 +1,12 @@
+
+.carritoNav{
+    cursor: pointer;
+    width: 90px;
+    height: 80px;
+}
+
+.contador{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    translate: 40px 0px 0px ;
+}

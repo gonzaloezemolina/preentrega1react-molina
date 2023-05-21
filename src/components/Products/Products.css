@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-productos{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    }
+    
+    
+    
+    .producto{
+        width: 250px;
+        height: 370px;
+        padding: 20px;
+        text-align: center;
+        font-family: "Bebas";
+    }
+    
+    .producto__img{
+        width: 200px;
+        height: 220px;
+    }
+
+    .producto__detalles__btn{
+        cursor: pointer;
+        background: 0;
+        border: 0;
+        font-family: "Bebas";
+    }
+
+    .producto__detalles__btn:hover{
+        border: 1px black solid;
+    }
+    
+    
+    /* @media(min-width:580px){
+        .container-productos{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+    
+    
+    @media(min-width:1000px){
+        .container-productos{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+    } */
+    
+    
